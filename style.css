@@ -22,7 +22,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: var(--primary-background);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .header-container {
