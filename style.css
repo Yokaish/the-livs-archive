@@ -142,6 +142,12 @@ span {
     opacity: 0.8;
 }
 
+.shoot-input::placeholder {
+    padding-left: 1rem;
+    color: var(--my-white);
+    font-size: 16px;
+}
+
 footer {
     margin-top: 1.9rem;
     display: flex;
