@@ -29,7 +29,6 @@ body {
     justify-content: center;
     height: 30vh;
     width: 100%;
-    overflow: hidden;
     background: url('lisabackground.png') no-repeat center center;
     background-size: cover;
 }
