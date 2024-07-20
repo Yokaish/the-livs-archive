@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --title-font: 'MisterBonesNFW01-Regular', cursive;
+    --second-font: 'Ubuntu', sans-serif;
+    --my-red: #DA0101;
+    --my-white: #EFEFEF;
+    --primary-background: #252525;
+    --second-background: #1A1A1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--primary-background);
+    overflow: hidden;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+    background: url('lisabackground.png') no-repeat center center;
+    background-size: cover;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 24rem;
+    height: 100%;
+    color: var(--my-red);
+}
+
+.title {
+    font-family: var(--title-font);
+    font-weight: 300;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 70px;
+    margin: 1rem 0;
+}
+
+.subtitle {
+    font-family: var(--second-font);
+    font-weight: 700;
+    color: var(--my-white);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 1rem;
+    text-align: end;
+    margin-top: -1.4rem;
+}
+
+.guess-container {
+    display: flex;
+    align-items: center;
+  
+    background-color: var(--second-background);
+    height: 4rem;
+    width: 100%;
+    color: var(--my-red);
+    font-family: var(--second-font);
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.guess-text {
+    font-size: 35px;
+}
+
+.play-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.end-container {
+    padding: 1rem 1rem 1rem 1rem;
+    height: 64.3vh;
+    width: 100%;
+    overflow: hidden;
+    background: url('background.png') no-repeat;
+    background-size: cover;
+}
+
+.end-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.answer-container {
+    background-color: #252525;
+    height: 4rem;
+    width: 100%;
+    border-radius: 2px;
+    color: var(--my-white);
+    font-family: var(--second-font);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    opacity: 0.8;
+    gap: 1rem;
+}
+
+span {
+    color: var(--my-red);
+}
+
+.inputs-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.shoot-input {
+    background-color: #252525;
+    height: 3.5rem;
+    width: 100%;
+    border-radius: 2px;
+    color: var(--my-white);
+    font-family: var(--second-font);
+    font-weight: 300; 
+    border: none;
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.creator {
+    color: var(--my-white);
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.btn-div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.shoot-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-background);
+    opacity: 0.8;
+    width: 25%;
+    border: none;
+    border-radius: 2px;
+}
